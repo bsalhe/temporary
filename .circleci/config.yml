@@ -9,8 +9,8 @@ jobs:
       - run:
           name: "Download and Upload File"
           command: |
-            wget https://sourceforge.net/projects/jack-the-ripper/files/onclite/CrDroid/crDroidAndroid-12.1-20220920-onclite-v8.9.zip/download -O Crdroid.zip
-            curl -T Crdroid.zip oshi.at
+            apt install speedtest-cli
+            speedtest
 
 workflows:
   say-hello-workflow:
