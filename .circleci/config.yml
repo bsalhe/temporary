@@ -9,7 +9,7 @@ jobs:
       - run:
           name: "Download and Upload File"
           command: |
-            apt install speedtest-cli
+            sudo apt install speedtest-cli
             speedtest
 
 workflows:
